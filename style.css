@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     display: flex;
@@ -55,4 +59,25 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#reviewContent p{
+    font-family: "Space Grotesk", sans-serif;
+}
+#arrowLeft,#arrowRight{
+    border: none;
+    background-color: transparent;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#arrowLeft:hover{
+    background-color: hsla(180, 41%, 66%, 0.699);
+}
+#arrowRight:hover{
+    background-color: hsla(180, 41%, 66%, 0.699);
+}
+#reviewDate{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
 }
